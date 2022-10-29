@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<!--=== Coding by CodingLab | www.codinglabweb.com === -->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!----======== CSS ======== -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!----===== Iconscout CSS ===== -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <!--<title>Responsive Regisration Form </title>-->
+</head>
+
+<body>
+    <div class="container">
+        <header>Registrar</header>
+
+        <form action="#" id="form-date">
+            <div class="form first">
+                <div class="details personal">
+                    <span class="title">Datos de producto</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Id Producto</label>
+                            <input type="text" placeholder="Ingrese Id del producto" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Nombre Producto</label>
+                            <input type="text" placeholder="Ingrese nombre del producto" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Genero</label>
+                            <select required>
+                                <option disabled selected>Seleccione genero</option>
+                                <option>Niño</option>
+                                <option>Niña</option>
+                                <option>Otro</option>
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Precio $</label>
+                            <input type="text" placeholder="Ingrese precio" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Stock</label>
+                            <input type="number" placeholder="Ingrese stock" required>
+
+                        </div>
+
+                        <div class="input-field">
+                            <!----======== Agregar una paleta de colores ======== -->
+                            <label>Color</label>
+                            <input type="text" placeholder="Ingrese color" required>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="details ID">
+                    <!----======== <span class="title">Identity Details</span> ======== -->
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Material</label>
+                            <input type="text" placeholder="Ingrese material " required>
+                        </div>
+
+                        <div class=" input-field ">
+                            <label>Tipo</label>
+                            <input type="text" placeholder="Ingrese tipo" required>
+                        </div>
+
+                        <div class="input-field ">
+                            <label>Marca</label>
+                            <input type="text " placeholder="Ingrese Marca" required>
+                        </div>
+
+                        <div class="input-field ">
+                            <label>Modelo</label>
+                            <input type="text" placeholder="Ingrese Modelo" required>
+                        </div>
+
+                        <div class="input-field ">
+                            <label>Temporada</label>
+                            <select required>
+                                <option disabled selected>Seleccione temporada</option>
+                                <option>Toda temporada</option>
+                                <option>Disfraces</option>
+                                <option>Navidad</option>
+                                <option>Basicos</option>
+                                <option>Sol y Playa</option>
+                            </select>
+                        </div>
+
+                        <div class="input-field ">
+                            <label>Fabricante</label>
+                            <input type="text" placeholder="Ingrese fabricante" required>
+                        </div>
+                    </div>
+
+                    <button class="nextBtn ">
+                        <span class="btnText ">Next</span>
+                        <i class="uil uil-navigator "></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="form second ">
+                <div class="details address ">
+                    <!----========  <span class="title ">Address Details</span> ======== -->
+
+                    <div class="fields ">
+                        <div class="input-field ">
+                            <label>Hecho en :</label>
+                            <input type="text" placeholder="Ingrese lugar fabricacion" required>
+                        </div>
+
+                        <div class="input-field ">
+                            <label>Talla</label>
+                            <select required>
+                                <option disabled selected>Seleccione Talla</option>
+                                <option value="1">0-3 M</option>
+                                <option value="2">3-6 M</option>
+                                <option value="3">6-9 M</option>
+                                <option value="4">9-12 M</option>
+                                <option value="5">12-18 M</option>
+                                <option value="6">18-24 M</option>
+                                <option value="7">2 T</option>
+                                <option value="8">4 T</option>
+                                <option value="9">5 T</option>
+                                <option value="10">6 T</option>
+                                <option value="11">8 T</option>
+                                <option value="12">10 T</option>
+                                <option value="13">12 T</option>
+                            </select>
+
+                        </div>
+
+                        <div class="input-field ">
+                            <label>Garantia</label>
+                            <input type="number" placeholder="Ingrese tiempo de garantia" required>
+                        </div>
+
+                        <div class="input-textarea">
+                            <label>Caracteristicas Destacadas</label>
+                            <textarea id="w3review" name="w3review" rows="4" cols="50">                                
+                            </textarea>
+
+                        </div>
+
+                        <div class="input-textarea">
+                            <label>descripcion</label>
+                            <textarea id="w3review" name="w3review" rows="4" cols="50">
+                                
+                            </textarea>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="buttons ">
+                    <div class="backBtn ">
+                        <i class="uil uil-navigator "></i>
+                        <span class="btnText ">Back</span>
+                    </div>
+
+                    <button class="sumbit ">
+                            <span class="btnText ">Submit</span>
+                            <i class="uil uil-navigator "></i>
+                        </button>
+                </div>
+            </div>
+    </div>
+    </form>
+    </div>
+
+    <script src="js/script.js "></script>
+</body>
+
+</html>
