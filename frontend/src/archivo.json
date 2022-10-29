@@ -1,0 +1,36 @@
+[{
+        "id": 1018,
+        "nombreProducto": "Camiseta Polo",
+        "descripcion": "Camiseta en algodon",
+        "cantidad": 28,
+        "imagen": "http://cdn.shopify.com/s/files/1/0250/0516/2601/products/image0000122.png?v=1639280452"
+    },
+    {
+        "id": 1010,
+        "nombreProducto": "Pantalon",
+        "descripcion": "Pantalon en Algodon",
+        "cantidad": 27,
+        "imagen": "https://falabella.scene7.com/is/image/FalabellaCO/28715247_1?wid=800&hei=800&qlt=70"
+    },
+    {
+        "id": 2025,
+        "nombreProducto": "Camiseta Comics",
+        "descripcion": "Camiseta en algodon",
+        "cantidad": 10,
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_715720-MCO42165288060_062020-W.jpg"
+    },
+    {
+        "id": 2015,
+        "nombreProducto": "Medias",
+        "descripcion": "Medias Comics",
+        "cantidad": 10,
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_836478-MCO51795008483_102022-W.jpg"
+    },
+    {
+        "id": 2005,
+        "nombreProducto": "Boxer",
+        "descripcion": "Boxer en licra y algodon",
+        "cantidad": 10,
+        "imagen": "https://i.linio.com/p/4d8cfd2a6f4bd96f3be1f43b268c0840-product.jpg"
+    }
+]
