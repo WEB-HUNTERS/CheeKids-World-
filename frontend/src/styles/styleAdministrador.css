@@ -1,0 +1,11 @@
+.buttonAdmin {
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    padding: 1.5%;
+    cursor: pointer;
+}
+
+.blockAdmin {
+    background-color: black;
+}

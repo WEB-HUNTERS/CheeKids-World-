@@ -1,0 +1,15 @@
+body {
+    background-color: aqua;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.buttonInicio {
+    font-size: 25px;
+    border-radius: 10px;
+    background-color: brown;
+    color: white;
+    border: none;
+    padding: 1.5%;
+    margin: 2%;
+}
